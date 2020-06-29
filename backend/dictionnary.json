@@ -4,5 +4,11 @@
         "pattern": ["Bonjour","Salut","Coucou","Hello","Il y a quelqu'un ?"],
         "responses": ["Bonjour, enchanté de vous rencontrer, je suis B-Max.", "Bien le bonjour Madame/Monsieur/Non Binaire, je m'appelle B-Max.","Salut, je suis B-Max, IA très intelligente."],
         "contexts": [""]
+    },
+    {
+        "tag": "aucuneReponse",
+        "pattern": [],
+        "responses": ["Je n'ai pas compris votre phrase.", "Pouvez vous répéter s'il vous plait ?", "Hein ?"],
+        "contexts": [""]    
     }
 ] }
