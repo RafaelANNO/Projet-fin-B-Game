@@ -1,15 +1,14 @@
-from flask import Flask, request
-from flask_restful import Resource, Api
-from json import dumps
+from flask import Flask
+from flask_socketio import SocketIO, send
 
 app = Flask(__name__)
-api = Api(app)
+app.config['SECRET_KEY'] = 'my_secret'
+socketio = SocketIO(app)
 
-class Employees(Resource):
-  def get(self):
-    return {'employees': 'pute'}
-
-api.add_resource(Employees, '/employees') # Route_1
+@socketio.on('message')
+def handleMessage(msg):
+  print("Message : " + msg)
+  send(msg, broadcast=True)
 
 if __name__ == '__main__':
-  app.run(port='9000')
+  socketio.run(app)
