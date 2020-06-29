@@ -5,11 +5,11 @@ from json import dumps
 app = Flask(__name__)
 api = Api(app)
 
-class Employees(Resource):
+class Question(Resource):
   def get(self):
-    return {'employees': 'pute'}
+    return {'question': 'test'}
 
-api.add_resource(Employees, '/employees') # Route_1
+api.add_resource(Question, '/question') # Route_1
 
 if __name__ == '__main__':
   app.run(port='9000')
