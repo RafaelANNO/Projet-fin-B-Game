@@ -1,1 +1,8 @@
-{ }
+{"intents": [
+    {
+        "tag": "bonjour",
+        "pattern": ["Bonjour","Salut","Coucou","Hello","Il y a quelqu'un ?"],
+        "responses": ["Bonjour, enchanté de vous rencontrer, je suis B-Max.", "Bien le bonjour Madame/Monsieur/Non Binaire, je m'appelle B-Max.","Salut, je suis B-Max, IA très intelligente."],
+        "contexts": [""]
+    }
+] }
