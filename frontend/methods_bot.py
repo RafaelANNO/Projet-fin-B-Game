@@ -26,7 +26,10 @@ def chatBot_lemma(str_in):
 
     arr_out = []
     for word in text:
-        arr_out.append(word.lemma_)
+        try:
+            arr_out.append(word.lemma_)
+        except:
+            pass
 
     return arr_out
 

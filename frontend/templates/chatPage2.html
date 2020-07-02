@@ -61,7 +61,8 @@
             }
 
             
-            $.ajax({url: 'http://127.0.0.1:5000/api/ringBot?msg=' + user_input,
+
+            $.ajax({url: 'http://192.168.43.194:5000/api/ringBot?msg=' + user_input,
                 method: 'GET',
                 success: function(data) {
                     if( typeof user_name !== 'undefined' ) {
