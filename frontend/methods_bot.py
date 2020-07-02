@@ -2,7 +2,7 @@
 #imports
 import json
 import spacy
-nlp = spacy.load("fr_core_news_sm")
+
 import random
 
 ####################
@@ -22,6 +22,7 @@ for item in globalData['intents']:
 ####################
 #methods
 def chatBot_lemma(str_in):
+    nlp = spacy.load("fr_core_news_sm")
     text = ''
     text = nlp(str_in)
 
