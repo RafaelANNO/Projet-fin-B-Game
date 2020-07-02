@@ -3,4 +3,33 @@ body {
     color: #FFFFFF;
     text-align:center;
     padding:35px;
-    background-color: #2a2a2e;}
+    background-color: #2a2a2e;
+    /* background-image: url('/frontend/static/fond_mordor.png'); */
+}
+
+form, p, span {
+    margin:0;
+    padding:0; }
+
+input { font:12px arial; }
+
+
+
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+
+#submit { width: 60px; }
+
+.msgln { margin:0 0 2px 0; }
