@@ -27,12 +27,12 @@ def chat2():
     return render_template('chatPage2.html')
 
 def messageReceived(methods=['GET', 'POST']):
-    print('ok')
+    print('message was received!!!')
 
 @socketio.on('my event')
 def handle_my_custom_event(json, methods=['GET', 'POST']):
-    print('event: '+ str(json))
-    socketio.emit('reponse', json, callback=messageReceived)
+    print('received my event: '+ str(json))
+    socketio.emit('my response', json, callback=messageReceived)
 
 @app.route('/api/ringBot', methods=['GET'])
 def api_msg():
