@@ -6,6 +6,14 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'vnkdjnfjknfl1232#'
 socketio = SocketIO(app)
 
+@app.route('/js')
+def jquery():
+    return render_template('jquery.min.js')
+
+@app.route('/socket')
+def socket():
+    return render_template('socket.io.min.js')
+
 @app.route('/')
 def index():
     return render_template('index.html')
