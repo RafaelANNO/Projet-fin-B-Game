@@ -22,14 +22,15 @@ for item in globalData['intents']:
 ####################
 #methods
 def chatBot_lemma(str_in):
+    text = ''
     text = nlp(str_in)
 
     arr_out = []
     for word in text:
-        try:
-            arr_out.append(word.lemma_)
-        except:
-            pass
+        #try:
+        arr_out.append(word.lemma_)
+        #except:
+        #    pass
 
     return arr_out
 
