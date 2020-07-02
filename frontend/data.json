@@ -2,21 +2,21 @@
   "intents": [
     {
       "id":  0,
-      "reponse": [ "Bonjour", "Bonsoir", "Salut" ],
+      "reponse": [ "pas compris", "je ne sais pas", "pardon ?" ],
       "tags": [ "salut", "yo", "++" ],
-      "tags++": []
+      "tags++": ["salut" ]
     },
     {
       "id": 1,
       "reponse": [ "Au revoir", "A bientot" ],
       "tags": [ "bye", "++" ],
-      "tags++": []
+      "tags++": ["bye" ]
     },
     {
       "id": 2,
       "reponse": [ "Bonjour, je vais bien merci", "tres bien merci" ],
       "tags": [ "bonjour", "salut", "comment", "tu" ],
-      "tags++": []
+      "tags++": ["salut" ]
     }
   ]
 }

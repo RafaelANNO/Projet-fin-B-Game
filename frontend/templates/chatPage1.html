@@ -14,7 +14,24 @@
             padding:0; }
 
         input { font:12px arial; }
-        
+
+        a {
+            color:#0000FF;
+            text-decoration:none; }
+
+        a:hover { text-decoration:underline; }
+
+        #wrapper, #loginform {
+            margin:0 auto;
+            padding-bottom:25px;
+            background:#EBF4FB;
+            width:504px;
+            border:1px solid #ACD8F0; }
+
+        #loginform { padding-top:18px; }
+
+        #loginform p { margin: 5px; }
+
         #chatbox {
             text-align:left;
             margin:0 auto;
@@ -32,7 +49,13 @@
 
         #submit { width: 60px; }
 
+        .error { color: #ff0000; }
+
         #menu { padding:12.5px 25px 12.5px 25px; }
+
+        .welcome { float:left; }
+
+        .logout { float:right; }
 
         .msgln { margin:0 0 2px 0; }
     </style>
@@ -48,8 +71,8 @@
     </form>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/socket.io.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
     <script type="text/javascript">
       var socket = io.connect('http://' + document.domain + ':' + location.port);
 

@@ -73,23 +73,3 @@ def chatBot_selectRandomResponse(id_in):
 #print(chatBot_findIdResponse(['salut', 'comment', 'aller', 'tu'], 3, 1))
 #print(chatBot_findIdResponse(['comment', 'aller', 'tu'], 3, 1))
 #print(chatBot_selectRandomResponse(2))
-
-
-########################################
-########################################
-########################################
-def ia_test_printData():
-    for item in globalData['intents']:
-        print('id: ' + str(item['id']))
-
-        print('reponse: ')
-        for string in item['reponse']:
-            print('     ' + string)
-
-        print('tags: ')
-        for string in item['tags']:
-            print('     ' + string)
-        print('')
-
-def ia_test_recu():
-    return " - recu"

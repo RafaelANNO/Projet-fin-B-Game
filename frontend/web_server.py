@@ -3,7 +3,7 @@ from flask_socketio import SocketIO
 from methods_bot import chatBot_lemma, chatBot_arrCleaner, chatBot_findIdResponse, chatBot_selectRandomResponse
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'theBotIsALie34200'
+app.config['SECRET_KEY'] = 'vnkdjnfjknfl1232#'
 socketio = SocketIO(app)
 
 @app.route('/')
@@ -46,5 +46,5 @@ def api_msg():
 
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True)
-    app.run(debug=True, host='0.0.0.0')
+    #socketio.run(app, debug=True)
+    app.run(host='0.0.0.0')
