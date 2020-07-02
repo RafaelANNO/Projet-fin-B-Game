@@ -22,10 +22,16 @@ for item in globalData['intents']:
 ####################
 #methods
 def chatBot_lemma(str_in):
+    str_in = str_in.replace('?', ' ')
+    str_in = str_in.replace('.', ' ')
+    str_in = str_in.replace('!', ' ')
+    str_in = str_in.replace('/', ' ')
+    str_in = str_in.replace('_', ' ')
+    str_in = str_in.replace('-', ' ')
     nlp = spacy.load("fr_core_news_sm")
     text = ''
     text = nlp(str_in)
-
+    
     arr_out = []
     for word in text:
         #try:
@@ -73,7 +79,7 @@ def chatBot_selectRandomResponse(id_in):
     return 'invalid id'
 
 
-#print(chatBot_lemma('bonjour je fais des tests'))
+#print(chatBot_lemma('bonjour ?je fais des tests!'))
 #print(chatBot_arrCleaner(['bonjour', 'comment', 'aller', 'tu']))
 #print(chatBot_findIdResponse(['salut', 'comment', 'aller', 'tu'], 3, 1))
 #print(chatBot_findIdResponse(['comment', 'aller', 'tu'], 3, 1))
