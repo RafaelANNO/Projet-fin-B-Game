@@ -9,31 +9,31 @@
     {
       "id": 1,
       "reponse": [ "Il y a 9 membres" ],
-      "tags": [ "combien", "aller", "nombre", "personne","membres", "communauté", "anneau", "groupe", "fraternité" ],
-      "tags++": [ "combien", "membres", "personnes"]
+      "tags": [ "combien", "aller", "nombre", "personne", "personn", "membre", "communauté", "anneau", "groupe", "fraternité" ],
+      "tags++": [ "combien", "membre", "personne"]
     },
     {
       "id": 2,
       "reponse": [ "Les films sont sortis entre 2001 et 2003" ],
-      "tags": [ "quelle", "quel", "quand", "année", "sorti", "film" ],
-      "tags++":  ["film", "trilogie"]
+      "tags": [ "quelle", "quel", "quand", "année", "sortir", "film" ],
+      "tags++":  ["film", "trilogie", "sortir"]
     },
     {
       "id": 3,
       "reponse": [ "Le premier film \"La communauté de l'anneau\" est sorti en 2001" ],
-      "tags": [ "communauté", "anneau", "année", "sorti", "premier", "film" ],
+      "tags": [ "communauté", "anneau", "année", "sortir", "premier", "film" ],
       "tags++":  ["premier", "communauté", "anneau"]
     },
     {
       "id": 4,
       "reponse": [ "Le deuxième film \"Les deux tours\" est sorti en 2002" ],
-      "tags": [ "les deux tours", "année", "sorti", "deuxième", "film" ],
-      "tags++": [ "deuxième", "deux", "tours" ]
+      "tags": [ "deux", "tour", "année", "sortir", "deuxième", "film" ],
+      "tags++": [ "deuxième", "deux", "tour" ]
     },
     {
       "id": 5,
       "reponse": [ "Le troisième film \"Le retour du roi\" est sorti en 2003" ],
-      "tags": [ "le retour du roi", "année", "sorti", "troisième", "film" ],
+      "tags": [ "retour", "roi", "année", "sortir", "troisième", "film" ],
       "tags++": [ "troisième", "dernier", "retour", "roi" ]
     },
     {
@@ -45,20 +45,20 @@
     {
       "id": 7,
       "reponse": [ "L'écrivain est J.R.R Tolkien" ],
-      "tags": [ "qui", "écrivain", "auteur", "ecrire", "livre", "histoire" ],
+      "tags": [ "qui", "écrivain", "auteur", "écrir", "livre", "histoire" ],
       "tags++": [ "auteur", "écrivain" ]
     },
     {
       "id": 8,
       "reponse": [ "Il y a une dizaine de races dans le Seigneur des anneaux" ],
-      "tags": [ "combien", "race", "nombre" ],
+      "tags": [ "combien", "race", "nombre", "espèce" ],
       "tags++": [ "race", "espèce", "type" ]
     },
     {
       "id": 9,
       "reponse": [ "Sauron est battu, les peuples de la Terre du milieu son libérés" ],
-      "tags": [ "comment", "termine", "film", "se", "fin" ],
-      "tags++": [ "termine", "fin" ]
+      "tags": [ "comment", "termine", "film", "se", "fin", "fini" ],
+      "tags++": [ "termine", "fin", "fini" ]
     },
     {
       "id": 10,
@@ -69,7 +69,7 @@
     {
       "id": 11,
       "reponse": [ "Les nains detestent les elfes car ils en sont jaloux et et les elfes les méprisent" ],
-      "tags": [ "pourquoi", "nain", "détester", "elf", "aimer", "pas" ],
+      "tags": [ "pourquoi", "nain", "détester", "détestent", "elf", "elfer", "elfe", "aimer", "pas" ],
       "tags++": [ "nain" ]
     },
     {
@@ -81,31 +81,31 @@
     {
       "id": 13,
       "reponse": [ "Le personnage principal est Frodon Saquet", "Le héros principal est le hobbit Frodon Saquet" ],
-      "tags": [ "de", "quelle", "héros", "principal", "personnage", "qui", "être" ],
+      "tags": [ "de", "quell", "quel", "héro", "principal", "personnage", "qui", "être" ],
       "tags++": [ "personnage", "principal" ]
     },
     {
       "id": 14,
       "reponse": [ "L'anneau permet de devenir invisible et donne beaucoup de pouvoirs à Sauron" ],
-      "tags": [ "quoi", "sert", "anneau", "à" ],
+      "tags": [ "quoi", "servir", "anneau", "à" ],
       "tags++": [ "anneau" ]
     },
     {
       "id": 15,
       "reponse": [ "Le film est l'aventure d'un groupe dans le but de vaincre un ennemi commun, Sauron" ],
-      "tags": [ "de", "quoi", "parle", "quelle", "être", "histoire", "film" ],
+      "tags": [ "de", "quoi", "parle", "quel", "quell", "être", "histoire", "film" ],
       "tags++": [ "histoire", "parler", "parle", "résumé", "resumé", "resumer" ]
     },
     {
       "id": 16,
       "reponse": [ "L'histoire se déroule en Terre du Milieu " ],
-      "tags": [ "où", "se", "dérouler", "histoire", "passer" ],
+      "tags": [ "où", "ou", "se", "dérouler", "histoire", "passer" ],
       "tags++": [ "dérouler", "passer", "histoire" ]
     },
     {
       "id": 17,
       "reponse": [ "La cité blanche est Minas Tirth" ],
-      "tags": [ "comment", "apelle", "la", "cité",  "blanche", "nom" ],
+      "tags": [ "comment", "apeller", "cité",  "blanche", "blanc", "nom" ],
       "tags++": [ "cité", "blanche" ]
     },
     {
@@ -117,13 +117,13 @@
     {
       "id": 19,
       "reponse": [ "Le roi-sorcié d'Angmar est le plus puissant des Nazgul" ],
-      "tags": [ "angmar", "roi", "sorcié", "qui", "être" ],
+      "tags": [ "angmar", "roi", "sorcier", "qui", "être" ],
       "tags++": [ "angmar" ]
     },
     {
       "id": 20,
       "reponse": [ "Minas Morgul se situe entre le Mordor et Minas Tirth" ],
-      "tags": [ "ou", "situer", "minas", "morgul", "trouver", "situer", "trouve" ],
+      "tags": [ "ou", "situer", "situe", "minas", "morgul", "trouver", "situer", "trouve" ],
       "tags++": [ "minas", "morgul" ]
 
     },
@@ -136,7 +136,7 @@
     {
       "id": 22,
       "reponse": [ "Le grand oeil enflammé est Sauron" ],
-      "tags": [ "qui", "être", "grand", "oeil", "feu", "flame", "enflammer" ],
+      "tags": [ "qui", "être", "grand", "oeil", "feu", "flamee", "flamm", "enflammer" ],
       "tags++": [ "oeil" ]
     },
     {
@@ -207,20 +207,20 @@
     },
     {
       "id": 34,
-      "reponse": [ "Aragorn a 87" ],
-      "tags": [ "quel", "age", "avoir", "aragorn" ],
+      "reponse": [ "Aragorn a 87 ans" ],
+      "tags": [ "quel", "age", "âg", "âge", "avoir", "aragorn" ],
       "tags++": [ "aragorn" ]
     },
     {
       "id": 35,
       "reponse": [ "L'épée de Frodon s'apelle \"Dar\" " ],
-      "tags": [ "comment", "épée", "epee", "lame", "frodon" ],
+      "tags": [ "comment", "épée", "éper", "epee", "lame", "frodon","appeler" ],
       "tags++": [ "frodon" ]
     },
     {
       "id": 36,
       "reponse": [ "La taille d'un hobbit est celle d'un enfant de la race des hommes" ],
-      "tags": [ "quelle", "être", "taille", "hobbit" ],
+      "tags": [ "quelle", "quell", "être", "taille", "hobbit" ],
       "tags++": [ "hobbit" ]
     },
     {
@@ -238,7 +238,7 @@
     {
       "id": 39,
       "reponse": [ "La communauté de l'anneau est composé de: Frodon, Sam, Merry, Pipin, Legolas, Gimli, Boromir, Gandalf et Aragorn" ],
-      "tags": [ "qui", "composer", "communauté", "anneau", "constituer", "être" ],
+      "tags": [ "qui", "composer", "compose", "communauté", "anneau", "constituer", "être" ],
       "tags++": [ "communauté", "anneau" ]
     },
     {
@@ -286,7 +286,7 @@
     {
       "id": 47,
       "reponse": [ "Le vrai nom de Gandalf est \"Mithrandir\" " ],
-      "tags": [ "être", "vrai", "véritable", "nom", "gandalf" ],
+      "tags": [ "être", "quel", "vrai", "véritable", "nom", "gandalf" ],
       "tags++": [ "gandalf" ]
     },
     {
@@ -328,38 +328,38 @@
     {
       "id": 54,
       "reponse": [ "Le film est une adaptation du livre \"Le seigneur des anneau\" " ],
-      "tags": [ "venir", "film", "seigneur", "anneau", "origine", "être" ],
-      "tags++": ["venir", "origine", "sortir"]
+      "tags": [ "venir", "film", "ou", "seigneur", "anneau", "origine", "être" ],
+      "tags++": ["venir", "origine"]
     },
     {
       "id": 55,
       "reponse": [ "Le Gondor est le royaume des Hommes" ],
-      "tags": [ "quoi", "gondor", "être" ],
+      "tags": [ "quoi", "ce", "gondor", "être" ],
       "tags++": [ "gondor" ]
     },
     {
       "id": 56,
       "reponse": [ "Le Mordor est une région aride où se trouve la Montagne du Destin, et la tour de Barad dur" ],
-      "tags": [ "quoi", "être", "mordor" ],
+      "tags": [ "quoi", "ce", "être", "mordor" ],
       "tags++": [ "mordor" ]
     },
     {
       "id": 57,
       "reponse": [ "La tour de Barad dur est la tour où se trouve le grand oeil, l'oeil de Sauron." ],
-      "tags": [ "barad dur", "être", "quoi" ],
-      "tags++": [ "barad dur" ]
+      "tags": [ "barad", "dur", "être", "quoi" ],
+      "tags++": [ "barad", "dur" ]
     },
     {
       "id": 58,
       "reponse": [ "La tour de Barad dur se trouve en Mordor" ],
-      "tags": [ "trouve", "situer", "ou", "barad dur" ],
-      "tags++": [ "barad dur" ]
+      "tags": [ "trouve", "situer", "ou", "barad", "dur" ],
+      "tags++": [ "barad", "dur" ]
     },
     {
       "id": 59,
       "reponse": [ "Les deux tours sont la tour d'Isengard et la tour de Barad dur" ],
-      "tags": [ "quelle", "être", "deux", "tour", "quoi" ],
-      "tags++": [ "deux tours" ]
+      "tags": [ "que", "lui", "être", "deux", "tour", "quoi" ],
+      "tags++": [ "tour" ]
     },
     {
       "id": 60,
@@ -376,13 +376,13 @@
     {
       "id": 62,
       "reponse": [ "Les dunedains sont des hommes qui ont une grande longévité" ],
-      "tags": [ "dunedain", "quoi", "être", "qui" ],
+      "tags": [ "dunedain", "quoi", "être", "qui", "que" ],
       "tags++": [ "dunedain" ]
     },
     {
       "id": 63,
       "reponse": [ "Les Ents sont des arbres dotés de conscience et de parole, ils vivent principalement dans la forêt de Fangorn" ],
-      "tags": [ "ent", "quoi", "être", "qui" ],
+      "tags": [ "ent", "quoi", "être", "qui", "ent" ],
       "tags++": [ "ent" ]
     },
     {
@@ -419,7 +419,7 @@
       "id": 69,
       "reponse": [ "l'acteur de Saroumane est Christopher Lee" ],
       "tags": [ "acteur", "saroumane", "qui", "être", "christopher", "lee" ],
-      "tags++": [ "acteur", "ssaroumane", "christopher" ]
+      "tags++": [ "acteur", "saroumane", "christopher" ]
     },
     {
       "id": 70,
