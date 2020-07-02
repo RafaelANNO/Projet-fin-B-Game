@@ -1,13 +1,17 @@
 <!DOCTYPE html>
   <html>
   <head>
+    <!-- NE PAS OUBLIER DE RAJOUTER L'ADRESSE IP POUR L'INSTALLATION RASP -->
+    <script src="/jquery" type="text/javascript"></script>
+    <script src="/socket" type="text/javascript"></script>
     <title>ChatRoom 1</title>
     <style type="text/css">
         body {
             font:12px arial;
             color: #222;
             text-align:center;
-            padding:35px; }
+            padding:35px;
+            background-color: #2a2a2e; }
 
         form, p, span {
             margin:0;
@@ -46,8 +50,6 @@
     </form>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
     <script type="text/javascript">
       var socket = io.connect('http://' + document.domain + ':' + location.port);
 
