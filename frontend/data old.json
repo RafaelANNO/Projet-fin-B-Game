@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "id":  0,
+      "reponse": [ "pas compris", "je ne sais pas", "pardon ?" ],
+      "tags": [ "salut", "yo", "++" ],
+      "tags++": ["salut" ]
+    },
+    {
+      "id": 1,
+      "reponse": [ "Au revoir", "A bientot" ],
+      "tags": [ "bye", "++" ],
+      "tags++": ["bye" ]
+    },
+    {
+      "id": 2,
+      "reponse": [ "Bonjour, je vais bien merci", "tres bien merci" ],
+      "tags": [ "bonjour", "salut", "comment", "tu" ],
+      "tags++": ["salut" ]
+    }
+  ]
+}

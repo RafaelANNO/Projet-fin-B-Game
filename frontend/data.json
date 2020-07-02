@@ -1,22 +1,443 @@
 {
   "intents": [
     {
-      "id":  0,
-      "reponse": [ "pas compris", "je ne sais pas", "pardon ?" ],
-      "tags": [ "salut", "yo", "++" ],
-      "tags++": ["salut" ]
-    },
-    {
       "id": 1,
-      "reponse": [ "Au revoir", "A bientot" ],
-      "tags": [ "bye", "++" ],
-      "tags++": ["bye" ]
+      "reponse": [ "Je ne sais pas", "Je sais pas", "J'en sais rien" ],
+      "tag": [ "" ],
+      "tag++":  [ "" ]
     },
     {
       "id": 2,
-      "reponse": [ "Bonjour, je vais bien merci", "tres bien merci" ],
-      "tags": [ "bonjour", "salut", "comment", "tu" ],
-      "tags++": ["salut" ]
+      "reponse": [ "Les films sont sortis entre 2001 et 2003" ],
+      "tags": [ "quelle", "quel", "quand", "année", "sorti", "film" ],
+      "tag++":  ["film", "trilogie"]
+    },
+    {
+      "id": 3,
+      "reponse": [ "Le premier film \"La communauté de l'anneau\" est sorti en 2001" ],
+      "tags": [ "la communauté de l'anneau", "année", "sorti", "premier", "film" ],
+      "tag++":  ["premier", "communauté", "l'anneau"]
+    },
+    {
+      "id": 4,
+      "reponse": [ "Le deuxième film \"Les deux tours\" est sorti en 2002" ],
+      "tags": [ "les deux tours", "année", "sorti", "deuxième", "film" ],
+      "tag++": [ "deuxième", "deux tours" ]
+    },
+    {
+      "id": 5,
+      "reponse": [ "Le troisième film \"Le retour du roi\" est sorti en 2003" ],
+      "tags": [ "le retour du roi", "année", "sorti", "troisième", "film" ],
+      "tag++": [ "troisième", "dernier", "retour", "roi" ]
+    },
+    {
+      "id": 6,
+      "reponse": [ "Le réalisateur de la Trilogie est Peter Jackson" ],
+      "tags": [ "réaliser", "réalisateur", "trilogie", "premier", "deuxième", "troisième", "film" ],
+      "tag++": [ "realisateur", "realiser" ]
+    },
+    {
+      "id": 7,
+      "reponse": [ "L'écrivain est J.R.R Tolkien" ],
+      "tags": [ "qui", "écrivain", "auteur", "ecrire", "livre", "l'histoire" ],
+      "tag++": [ "auteur", "écrivain" ]
+    },
+    {
+      "id": 8,
+      "reponse": [ "Il y a une dizaine de races dans le Seigneur des anneaux" ],
+      "tag": [ "combien", "races", "nombre" ],
+      "tag++": [ "race", "espèces", "types" ]
+    },
+    {
+      "id": 9,
+      "reponse": [ "Sauron est battu, les peuples de la Terre du milieu son libérés" ],
+      "tag": [ "comment", "termine", "film", "se", "fin" ],
+      "tag++": [ "termine", "fin" ]
+    },
+    {
+      "id": 10,
+      "reponse": [ "Legolas est un elf et un membre de la comuneauté de l'anneau" ],
+      "tag": [ "qui", "être", "legolas" ],
+      "tag++": [ "legolas" ]
+    },
+    {
+      "id": 11,
+      "reponse": [ "Les nains detestent les elfes car ils en sont jaloux et et les elfes les méprisent" ],
+      "tag": [ "pourquoi", "nain", "détester", "elf", "aiment pas" ],
+      "tag++": [ "nain" ]
+    },
+    {
+      "id": 12,
+      "reponse": [ "La langue elfique a été créé par Tolkien" ],
+      "tag": [ "langue", "elfique", "existe", "vraiment" ],
+      "tag++": [ "elfique", "elfe", "langue" ]
+    },
+    {
+      "id": 13,
+      "reponse": [ "Le personnage principal est Frodon Saquet", "Le héros principal est le hobbit Frodon Saquet" ],
+      "tag": [ "de", "quelle", "héros", "principal", "personnage", "qui", "être" ],
+      "tag++": [ "personnage", "principal" ]
+    },
+    {
+      "id": 14,
+      "reponse": [ "L'anneau permet de devenir invisible et donne beaucoup de pouvoirs à Sauron" ],
+      "tag": [ "quoi", "sert", "anneau", "à" ],
+      "tag++": [ "anneau" ]
+    },
+    {
+      "id": 15,
+      "reponse": [ "Le film est l'aventure d'un groupe dans le but de vaincre un ennemi commun, Sauron" ],
+      "tag": [ "de", "quoi", "parle", "quelle", "être", "histoire", "film" ],
+      "tag++": [ "histoire", "parler", "parle", "résumé" ]
+    },
+    {
+      "id": 16,
+      "reponse": [ "L'histoire se déroule en Terre du Milieu " ],
+      "tag": [ "où", "se", "dérouler", "histoire", "passer" ],
+      "tag++": [ "dérouler", "passer", "histoire" ]
+    },
+    {
+      "id": 17,
+      "reponse": [ "La cité blanche est Minas Tirth" ],
+      "tag": [ "comment", "apelle", "la", "cité blanche", "nom" ],
+      "tag++": [ "cité blanche" ]
+    },
+    {
+      "id": 18,
+      "reponse": [ "Le surnom de Minas Tirith est \"La cité Blanche\" " ],
+      "tag": [ "quel", "être", "surnom", "Minas Tirith" ],
+      "tag++": [ "minas tirith" ]
+    },
+    {
+      "id": 19,
+      "reponse": [ "Le roi-sorcié d'Angmar est le plus puissant des Nazgul" ],
+      "tag": [ "angmar", "roi sorcié", "qui", "être" ],
+      "tag++": [ "angmar" ]
+    },
+    {
+      "id": 20,
+      "reponse": [ "Minas Morgul se situe entre le Mordor et Minas Tirth" ],
+      "tag": [ "ou", "situer", "minas morgul", "trouver", "situer", "trouve" ],
+      "tag++": [ "minas morgul" ]
+
+    },
+    {
+      "id": 21,
+      "reponse": [ "Sauron est l'ennemi principal dans la trilogie" ],
+      "tag": [ "sauron", "qui", "être" ],
+      "tag++": [ "sauron" ]
+    },
+    {
+      "id": 22,
+      "reponse": [ "Le grand oeil enflammé est Sauron" ],
+      "tag": [ "qui", "être", "grand", "oeil", "feu", "flame", "enflammer" ],
+      "tag++": [ "oeil" ]
+    },
+    {
+      "id": 23,
+      "reponse": [ "La montagne du Destin est en Mordor" ],
+      "tag": [ "montagne", "destin", "situer", "trouver", "ou" ],
+      "tag++": [ "mantagne", "destin" ]
+    },
+    {
+      "id": 24,
+      "reponse": [ "3 anneaux ont été donné au elfes, 7 aux seigneurs nains, 9 aux rois hommes et l'anneau unique" ],
+      "tag": [ "combien", "anneau", "avoir" ],
+      "tag++": [ "anneau" ]
+    },
+    {
+      "id": 25,
+      "reponse": [ "L'incription est : Un anneau pour les gouverner tous. Un anneau pour les trouver. Un anneau pour les amener tous et dans les ténèbres les lier." ],
+      "tag": [ "inscription", "anneau", "unique", "être" ],
+      "tag++": [ "anneau" ]
+    },
+    {
+      "id": 26,
+      "reponse": [ "Galadriel est une elfe très puissante" ],
+      "tag": [ "qui", "être", "galadriel" ],
+      "tag++": [ "galadriel" ]
+    },
+    {
+      "id": 27,
+      "reponse": [ "Aragorn est un Dunedain, il est l'héritier d'Isildur" ],
+      "tag": [ "qui", "être", "aragorn" ],
+      "tag++": [ "aragorn" ]
+    },
+    {
+      "id": 28,
+      "reponse": [ "Frodon est le personnage principale, il porte l'anneau tout à long de son aventure jusqu'en Mordor pour le détruire" ],
+      "tag": [ "qui", "être", "frodon" ],
+      "tag++": [ "frodon" ]
+    },
+    {
+      "id": 29,
+      "reponse": [ "Gandalf est un puissan mage qui aide les aventuriers à atteindre leurs but" ],
+      "tag": [ "qui", "être", "gandalf" ],
+      "tag++": [ "gandalf" ]
+    },
+    {
+      "id": 30,
+      "reponse": [ "Gimli est un nain, il est le fils de Gloin" ],
+      "tag": [ "qui", "être", "gimli" ],
+      "tag++": [ "gimli" ]
+    },
+    {
+      "id": 31,
+      "reponse": [ "Pipin est un hobbit, c'est un amis de Frodon, Sam et surtout Merry" ],
+      "tag": [ "qui", "être", "pipin" ],
+      "tag++": [ "pipin" ]
+    },
+    {
+      "id": 32,
+      "reponse": [ "Merry est un hobbit, c'est un amis de Frodon, Sam et surtout Pipin" ],
+      "tag": [ "qui", "être", "merry" ],
+      "tag++": [ "merry" ]
+    },
+    {
+      "id": 33,
+      "reponse": [ "Sam est le coéqupier de Frodon, il le suit jusqu'en Mordor" ],
+      "tag": [ "qui", "être", "sam" ],
+      "tag++":  ["sam"]
+    },
+    {
+      "id": 34,
+      "reponse": [ "Aragorn a 87" ],
+      "tag": [ "quel", "age", "avoir", "aragorn" ],
+      "tag++": [ "aragorn" ]
+    },
+    {
+      "id": 35,
+      "reponse": [ "L'épée de Frodon s'apelle \"Dar\" " ],
+      "tag": [ "comment", "épée", "lame", "frodon" ],
+      "tag++": [ "frodon" ]
+    },
+    {
+      "id": 36,
+      "reponse": [ "La taille d'un hobbit est celle d'un enfant de la race des hommes" ],
+      "tag": [ "quelle", "être", "taille", "hobbit" ],
+      "tag++": [ "hobbit" ]
+    },
+    {
+      "id": 37,
+      "reponse": [ "Golum a gardé l'anneau pendant 500 ans, celui-ci a ralenti son vieillessement" ],
+      "tag": [ "combien", "golum", "garder", "porter", "temps" ],
+      "tag++": [ "golum" ]
+    },
+    {
+      "id": 38,
+      "reponse": [ "Frodon est parti à l'aventure avec les membres de la communauté de l'anneau puis est parti avec Sam" ],
+      "tag": [ "qui", "partir", "aider", "frodon", "aventure" ],
+      "tag++": [ "frodon" ]
+    },
+    {
+      "id": 39,
+      "reponse": [ "La communauté de l'anneau est composé de: Frodon, Sam, Merry, Pipin, Legolas, Gimli, Boromir, Gandalf et Aragorn" ],
+      "tag": [ "qui", "composer", "communauté de l'anneau", "constituer", "être" ],
+      "tag++": [ "communauté" ]
+    },
+    {
+      "id": 40,
+      "reponse": [ "Gandalf est devenu Gandalf le blanc après avoir tué un Balrog" ],
+      "tag": [ "gandalf", "gris", "blanc", "devenir", "comment", "evoluer" ],
+      "tag++": [ "ganfalf" ]
+    },
+    {
+      "id": 41,
+      "reponse": [ "Saroumane est un puissant mage qui a sombré dans le mal" ],
+      "tag": [ "qui", "être", "saroumane", "blanc" ],
+      "tag++": [ "saroumane" ]
+    },
+    {
+      "id": 42,
+      "reponse": [ "Faramir est le frère de Boromir et le fils de Denethor" ],
+      "tag": [ "qui", "être", "faramir" ],
+      "tag++": [ "faramir" ]
+    },
+    {
+      "id": 43,
+      "reponse": [ "Denethor II est l'intendant du roi du Gondor à Minas Tirith, il est le père de Boromir et Faramir" ],
+      "tag": [ "qui", "être", "denethor", "denethor 2", "denethor ii" ],
+      "tag++": [ "denethor" ]
+    },
+    {
+      "id": 44,
+      "reponse": [ "Arwen est une elfe, elle est l'épouse d'Aragorn et la fille du seigneur Elrond" ],
+      "tag": [ "qui", "être", "arwen" ],
+      "tag++": [ "arwen" ]
+    },
+    {
+      "id": 45,
+      "reponse": [ "Elrond est un puissant elfe de Fondcombe" ],
+      "tag": [ "qui", "être", "elrond" ],
+      "tag++": [ "elrond" ]
+    },
+    {
+      "id": 46,
+      "reponse": [ "Fondcombe est une vallée ou réside un groupe d'elfes, elle a été fondée par Elrond" ],
+      "tag": [ "qui", "être", "fondcombe", "quoi" ],
+      "tag++": [ "fondcombe" ]
+    },
+    {
+      "id": 47,
+      "reponse": [ "Le vrai nom de Gandalf est \"Mithrandir\" " ],
+      "tag": [ "être", "vrai", "véritable", "nom", "gandalf" ],
+      "tag++": [ "gandalf" ]
+    },
+    {
+      "id": 48,
+      "reponse": [ "Mithrandir est le nom du mage Gandalf le gris" ],
+      "tag": [ "qui", "être", "mithrandir", "nom", "vrai", "véritable" ],
+      "tag++": [ "mithrandir" ]
+    },
+    {
+      "id": 49,
+      "reponse": [ "Sauron est le seigneur des anneaux, il a forgé l'anneau unique ainsi que ceux qu'il a offert" ],
+      "tag": [ "qui", "être", "seigneur des anneaux", "sauron" ],
+      "tag++": [ "sauron" ]
+    },
+    {
+      "id": 50,
+      "reponse": [ "Boromir est un membre de la communauté de l'anneau, c'est le frère de Faramir et le fils de Denethor" ],
+      "tag": [ "qui", "être", "boromir" ],
+      "tag++": [ "boromir" ]
+    },
+    {
+      "id": 51,
+      "reponse": [ "Golum est un ancien hobbit, il a été corompu par l'anneau" ],
+      "tag": [ "qui", "être", "golum" ],
+      "tag++": [ "golum" ]
+    },
+    {
+      "id": 52,
+      "reponse": [ "Le vrai nom de Golum est Sméagol" ],
+      "tag": [ "vrai", "nom", "golum" ],
+      "tag++": [ "golum" ]
+    },
+    {
+      "id": 53,
+      "reponse": [ "Sméagol est surnomé Golum" ],
+      "tag": [ "surnom", "sméagol", "smeagol", "vrai" ],
+      "tag++": [ "smeagol", "sméagol" ]
+    },
+    {
+      "id": 54,
+      "reponse": [ "Le film est une adaptation du livre \"Le seigneur des anneau\" " ],
+      "tag": [ "venir", "film", "seigneur des anneaux", "origine" ]
+    },
+    {
+      "id": 55,
+      "reponse": [ "Le Gondor est le royaume des Hommes" ],
+      "tag": [ "quoi", "gondor", "être" ],
+      "tag++": [ "gondor" ]
+    },
+    {
+      "id": 56,
+      "reponse": [ "Le Mordor est une région aride où se trouve la Montagne du Destin, et la tour de Barad dur" ],
+      "tag": [ "quoi", "être", "mordor" ],
+      "tag++": [ "mordor" ]
+    },
+    {
+      "id": 57,
+      "reponse": [ "La tour de Barad dur est la tour où se trouve le grand oeil, l'oeil de Sauron." ],
+      "tag": [ "barad dur", "être", "quoi" ],
+      "tag++": [ "barad dur" ]
+    },
+    {
+      "id": 58,
+      "reponse": [ "La tour de Barad dur se trouve en Mordor" ],
+      "tag": [ "trouve", "situer", "ou", "barad dur" ],
+      "tag++": [ "barad dur" ]
+    },
+    {
+      "id": 59,
+      "reponse": [ "Les deux tours sont la tour d'Isengard et la tour de Barad dur" ],
+      "tag": [ "quelle", "être", "deux tours", "quoi" ],
+      "tag++": [ "deux tours" ]
+    },
+    {
+      "id": 60,
+      "reponse": [ "La tour d'Isengard est le domaine de Saroumane" ],
+      "tag": [ "être", "quoi", "isengard", "tour d'isengard" ],
+      "tag++": [ "isengard" ]
+    },
+    {
+      "id": 61,
+      "reponse": [ "Les Nazguls sont d'anciens rois Hommes corrompu par Sauron, ils sont désormais les spectres de l'anneau" ],
+      "tag": [ "quoi", "être", "nazgul", "qui", "que" ],
+      "tag++": [ "nazgul" ]
+    },
+    {
+      "id": 62,
+      "reponse": [ "Les dunedains sont des hommes qui ont une grande longévité" ],
+      "tag": [ "dunedain", "quoi", "être", "qui" ],
+      "tag++": [ "dunedain" ]
+    },
+    {
+      "id": 63,
+      "reponse": [ "Les Ents sont des arbres dotés de conscience et de parole, ils vivent principalement dans la forêt de Fangorn" ],
+      "tag": [ "ent", "quoi", "être", "qui" ],
+      "tag++": [ "ent" ]
+    },
+    {
+      "id": 64,
+      "reponse": [ "Dans le casting il y a notamment, Ian McKellen, Elijah Wood, Sean Astin, Orlando Bloom, Christopher Lee, Sean Bean, Viggo Mortensen" ],
+      "tag": [ "casting", "cast", "acteur", "personnage", "être", "qui" ],
+      "tag++": [ "cast", "casting" ]
+    },
+    {
+      "id": 65,
+      "reponse": [ "l'acteur de Frodon est Elijah Wood" ],
+      "tag": [ "acteur", "frodon", "qui", "être", "elijah", "elijah wood" ],
+      "tag++": [ "acteur", "frodon", "elijah" ]
+    },
+    {
+      "id": 66,
+      "reponse": [ "l'acteur de Sam est Sean Astin" ],
+      "tag": [ "acteur", "sam", "qui", "être", "sean", "astin" ],
+      "tag++": [ "acteur", "sam", "sean" ]
+    },
+    {
+      "id": 67,
+      "reponse": [ "l'acteur de Gandalf est Ian McKellen" ],
+      "tag": [ "acteur", "gandalf", "mithrandir", "qui", "être", "ian", "mckellen" ],
+      "tag++": [ "acteur", "gandalf", "ian" ]
+    },
+    {
+      "id": 68,
+      "reponse": [ "l'acteur de Legolas est Orlando Bloom" ],
+      "tag": [ "acteur", "legolas", "qui", "être", "orlando", "bloom" ],
+      "tag++": [ "acteur", "legolas", "orlando" ]
+    },
+    {
+      "id": 69,
+      "reponse": [ "l'acteur de Saroumane est Christopher Lee" ],
+      "tag": [ "acteur", "saroumane", "qui", "être", "christopher", "lee" ],
+      "tag++": [ "acteur", "ssaroumane", "christopher" ]
+    },
+    {
+      "id": 70,
+      "reponse": [ "l'acteur de Boromir est Sean Bean" ],
+      "tag": [ "acteur", "boromir", "qui", "être", "sean", "bean" ],
+      "tag++": [ "acteur", "boromir", "sean" ]
+    },
+    {
+      "id": 71,
+      "reponse": [ "l'acteur de Aragorn est Viggo Mortensen" ],
+      "tag": [ "acteur", "aragorn", "qui", "être", "viggo", "mortensen" ],
+      "tag++": [ "acteur", "aragorn", "viggo" ]
+    },
+    {
+      "id": 72,
+      "reponse": [ "l'acteur de Galadriel est Cate Blanchett" ],
+      "tag": [ "acteur", "galadriel", "qui", "être", "cate", "blanchett" ],
+      "tag++": [ "acteur", "galadriel", "cate" ]
+    },
+    {
+      "id": 73,
+      "reponse": [ "Aragorn est surnomé \"Grand pas\"" ],
+      "tag": [ "surnom", "vrai", "nom", "aragorn", "grand pas", "appeller" ],
+      "tag++": [ "aragorn", "grand pas" ]
     }
+
   ]
 }
