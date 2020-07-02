@@ -13,7 +13,9 @@ form, p, span {
 
 input { font:12px arial; }
 
-
+a {
+    background-color: #FFFFFF;
+}
 
 #chatbox {
     text-align:left;
