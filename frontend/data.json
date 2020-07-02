@@ -329,7 +329,7 @@
       "id": 54,
       "reponse": [ "Le film est une adaptation du livre \"Le seigneur des anneau\" " ],
       "tags": [ "venir", "film", "seigneur", "anneau", "origine", "être" ],
-      "tagss++": ["venir", "origine", "sortir"]
+      "tags++": ["venir", "origine", "sortir"]
     },
     {
       "id": 55,
