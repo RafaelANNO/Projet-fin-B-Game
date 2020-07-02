@@ -7,7 +7,7 @@ import random
 
 ####################
 #globals
-with open('../backend/data.json') as json_file:
+with open('data.json') as json_file:
     globalData = json.load(json_file)
 
 globalTags = []
