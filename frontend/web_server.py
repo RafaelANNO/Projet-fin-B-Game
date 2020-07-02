@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 from flask_socketio import SocketIO
 from methods_bot import chatBot_lemma, chatBot_arrCleaner, chatBot_findIdResponse, chatBot_selectRandomResponse
 
