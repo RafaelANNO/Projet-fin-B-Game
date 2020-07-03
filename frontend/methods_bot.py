@@ -28,6 +28,8 @@ def chatBot_lemma(str_in):
     str_in = str_in.replace('/', ' ')
     str_in = str_in.replace('_', ' ')
     str_in = str_in.replace('-', ' ')
+    str_in = str_in.replace('<', ' ')
+    str_in = str_in.replace('>', ' ')
     nlp = spacy.load("fr_core_news_sm")
     text = ''
     text = nlp(str_in)
